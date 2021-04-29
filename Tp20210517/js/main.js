@@ -1,15 +1,17 @@
-window.addEventListener("load", () => {
-  let tabla = document.getElementById("tablesoc");
-  tabla.setAttribute("class", "table table-striped table-hover");
-  personas = orderedArray(personas, "nombre");
-  console.log(personas);
-  DatosTabla("tablesoc", personas);
-  AcctionsCheck();
+$(document).ready(function () {
+  $(".menu-icon").on("click", function () {
+    $("nav ul").toggleClass("showing");
+  });
 });
 
-// Creacion de Tabla
-function DatosTabla(tabla, datos) {
-  createTThead(tabla);
-  createTBody(tabla, datos);
-  btnClicks();
-}
+// Scrolling Effect
+
+$(window).on("scroll", function () {
+  if ($(window).scrollTop()) {
+    $('nav').addClass('white');
+  }
+
+  else {
+    $('nav').removeClass('white');
+  }
+})
