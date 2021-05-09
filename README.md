@@ -8,7 +8,7 @@ Solo se debe clonar el repo y ejecutar el index.html, dentro de la carpeta html.
 
 ## Technologies
 
-HTML5, CSS, Javascript, ECMAS6, JSON.
+HTML5, CSS3, BOOTSTRAP 4.
 
 ## License
 
