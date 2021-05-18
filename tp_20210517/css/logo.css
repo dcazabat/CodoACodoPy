@@ -1,10 +1,8 @@
 .m-logo {
   display: block;
-  width: 50%;
-  max-width: 300px;
-  min-width: 100px;
+  width: 100%;
+  max-width: 50px;
   height: auto;
-  margin: 20vh auto 0;
 }
 
 .box {
@@ -28,6 +26,74 @@
 }
 .box.wave7 {
   animation-delay: 1.1s;
+}
+
+.st0 {
+  fill: #66af4c;
+}
+
+.st1 {
+  fill: #5d9d68;
+}
+
+.st2 {
+  fill: #52868a;
+}
+
+.st3 {
+  fill: #4874a6;
+}
+
+.st4 {
+  fill: #8cb13f;
+}
+
+.st5 {
+  fill: #849857;
+}
+
+.st6 {
+  fill: #7a7c73;
+}
+
+.st7 {
+  fill: #72638a;
+}
+
+.st8 {
+  fill: #bab230;
+}
+
+.st9 {
+  fill: #b39442;
+}
+
+.st10 {
+  fill: #ab6f57;
+}
+
+.st11 {
+  fill: #a45069;
+}
+
+.st12 {
+  fill: #e0b423;
+}
+
+.st13 {
+  fill: #da9031;
+}
+
+.st14 {
+  fill: #d36541;
+}
+
+.st15 {
+  fill: #cd404e;
+}
+
+.st16 {
+  fill: #ffffff;
 }
 
 @keyframes wavey {
