@@ -1,0 +1,40 @@
+.m-logo {
+  display: block;
+  width: 50%;
+  max-width: 300px;
+  min-width: 100px;
+  height: auto;
+  margin: 20vh auto 0;
+}
+
+.box {
+  opacity: 0;
+  animation: wavey 5s ease alternate infinite;
+}
+.box.wave2 {
+  animation-delay: 0.1s;
+}
+.box.wave3 {
+  animation-delay: 0.3s;
+}
+.box.wave4 {
+  animation-delay: 0.5s;
+}
+.box.wave5 {
+  animation-delay: 0.7s;
+}
+.box.wave6 {
+  animation-delay: 0.9s;
+}
+.box.wave7 {
+  animation-delay: 1.1s;
+}
+
+@keyframes wavey {
+  90% {
+    opacity: 1.2;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

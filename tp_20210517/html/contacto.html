@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,16 +10,16 @@
     <!-- CSS Boostrap -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 
-    <!-- CSS fontaweson y Redes Sociales -->
-    <!-- <link href="../css/all.css" rel="stylesheet"> -->
-    <link href="../css/all.min.css" rel="stylesheet">
-    <link href="../css/social-network.css" rel="stylesheet">
+    <!-- CSS fontaweson -->
+    <link rel="stylesheet" href="../css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
 
-    <!-- CSS Propio -->
+    <!-- CSS Propio y Redes Sociales -->
+    <link rel="stylesheet" href="../css/social-network.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 
 <body>
     <div class="container-md">
@@ -63,11 +63,11 @@
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputFirstName">Nombre</label>
-                            <input type="text" class="form-control" id="inputFirstName">
+                            <input type="text" class="form-control" id="inputFirstName" required>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputLastName">Apellido</label>
-                            <input type="text" class="form-control" id="inputLastName">
+                            <input type="text" class="form-control" id="inputLastName" required>
                         </div>
                     </div>
                     <div class="form-group">
@@ -82,7 +82,7 @@
                         <div class="form-group col-md-4">
                             <label for="inputState">Provincia</label>
                             <select id="inputState" class="form-control">
-                                <option selected>Choose...</option>
+                                <option selected>Seleccionar...</option>
                                 <option>CABA</option>
                                 <option>Buenos Aires</option>
                                 <option>Cordoba</option>
@@ -110,14 +110,20 @@
                             </select>
                         </div>
                         <div class="form-group col-md-2">
-                            <label for="inputZip">Codigo Postal</label>
+                            <label for="inputZip">C. P.</label>
                             <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="textConsult">Consulta</label>
+                            <textarea class="form-control" id="textConsult" rows="5" required></textarea>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputEmail">Email a Responder</label>
-                            <input type="email" class="form-control" id="inputEmail">
+                            <input type="email" class="form-control" id="inputEmail" required>
                         </div>
                         <div class="form-group col-md-6 contendbtndiv">
                             <button type="reset" class="btn btn-danger"><img src="../assets/images/cancel.svg"
@@ -140,15 +146,11 @@
         </footer>
     </div>
 
-
     <!-- JS que corresponde a Boostrap -->
     <script type="text/javascript" src="../js/jquery-3.5.1.slim.min.js"></script>
     <script type="text/javascript" src="../js/popper.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
-
-    <!-- JS que corresponden a las tablas y funciones -->
-    <script type="text/javascript" src="../js/main.js"></script>
 </body>
 </body>
 
